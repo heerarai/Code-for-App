@@ -25,4 +25,26 @@ This is the backend of a web-based Social Skills Trainer app designed to help au
    ```bash
    git clone https://github.com/heerarai/Code-for-App.git
    cd Code-for-App/backend
+2. **Install dependencies**  
+   (Make sure you’re using a virtual environment)
+   ```bash
+   pip install -r requirements.txt
+3. **Run App**
+   ```bash
+   uvicorn app:app --reload
+4. **Open in Browser**
+   ```bash
+   Visit: http://127.0.0.1:8000/docs for Swagger API docs
+
+👩‍💻 About the Creator
+This app was created by Suhani Rai, a high school student passionate about AI, accessibility, and real-world impact. Inspired by her brother and volunteer work at a special needs clinic, she built this tool to help children practice and improve their social interactions in a supportive way.
+
+📌 Future Plans
+- Improve tone detection using PyTorch and NLP models
+
+- Add animated frontend and character visuals
+
+- Save user data and track improvement over time
+
+- Launch full-stack deployment for public access
 
