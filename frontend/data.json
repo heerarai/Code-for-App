@@ -1,0 +1,201 @@
+{
+  "Family": [
+    {
+      "id": "sad_sibling",
+      "question": "What should you say when your sibling is sad?",
+      "image": "images/sad_sibling.png",
+      "choices": ["Laugh at them", "Ignore them", "Ask if they're okay"],
+      "correct": "Ask if they're okay"
+    },
+    {
+      "id": "share_toy",
+      "question": "What do you do if you want a toy your sibling is using?",
+      "image": "images/share_toy.png",
+      "choices": ["Grab it from them", "Yell at them", "Ask nicely or wait your turn"],
+      "correct": "Ask nicely or wait your turn"
+    },
+    {
+      "id": "help_parents",
+      "question": "How can you help your parents without being asked?",
+      "image": "images/help_parents.png",
+      "choices": ["Clean your room", "Wait for them to tell you", "Leave the house"],
+      "correct": "Clean your room"
+    },
+    {
+      "id": "break",
+      "question": "What should you say after breaking something at home?",
+      "image": "images/break_png.png",
+      "choices": ["Hide it", "Say sorry and tell an adult", "Blame your sibling"],
+      "correct": "Say sorry and tell an adult"
+    },
+    {
+      "id": "parent_sayno",
+      "question": "What should you do if your parent says “no”?",
+      "image": "images/parent_sayno.png",
+      "choices": ["Argue loudly", "Respect their answer", "Cry and scream"],
+      "correct": "Respect their answer"
+    },
+    {
+      "id": "share_food",
+      "question": "How can you share snacks with your family?",
+      "image": "images/share_food.png",
+      "choices": ["Offer them some", "Eat it all quickly", "Hide it"],
+      "correct": "Offer them some"
+    },
+    {
+      "id": "help_sayhi",
+      "question": "You see your aunt in the living room. What should you do?",
+      "image": "images/help_sayhi.png",
+      "choices": ["Ignore her", "Say 'Hi!'", "Run away"],
+      "correct": "Say 'Hi!'"
+    },
+    {
+      "id": "help_mean",
+      "question": "Your sibling says something mean. What do you do?",
+      "image": "images/help_mean.png",
+      "choices": ["Say something mean back", "Tell an adult", "Cry loudly"],
+      "correct": "Tell an adult"
+    }
+  ],
+  "Home": [
+    {
+      "id": "door",
+      "question": "What do you do before going into someone’s room?",
+      "image": "images/door.png",
+      "choices": ["Knock", "Just walk in", "Yell their name"],
+      "correct": "Knock"
+    },
+    {
+      "id": "done_playing",
+      "question": "What should you do when you're done playing?",
+      "image": "images/done_playing.png",
+      "choices": ["Leave the mess", "Clean up your toys", "Hide the toys"],
+      "correct": "Clean up your toys"
+    },
+    {
+      "id": "ask_break",
+      "question": "You're feeling overwhelmed. What should you do?",
+      "image": "images/ask_break.png",
+      "choices": ["Keep going", "Ask for a break", "Yell"],
+      "correct": "Ask for a break"
+    },
+    {
+      "id": "choose_toy",
+      "question": "You want to play with a toy. What should you do?",
+      "image": "images/choose_toy.png",
+      "choices": ["Take it without asking", "Ask nicely", "Hide it"],
+      "correct": "Ask nicely"
+    }
+  ],
+  "Classmates": [
+    {
+      "id": "friend_wins",
+      "question": "What can you say when your classmate wins a game?",
+      "image": "images/friend_wins.png",
+      "choices": ["Get mad", "Congratulate them", "Say 'You cheated'"],
+      "correct": "Congratulate them"
+    },
+    {
+      "id": "say_please",
+      "question": "What should you do if you want to go first?",
+      "image": "images/say_please.png",
+      "choices": ["Shove in line", "Say 'Please can I go first?'", "Yell"],
+      "correct": "Say 'Please can I go first?'"
+    },
+    {
+      "id": "say_mean",
+      "question": "What should you say if you accidentally interrupt?",
+      "image": "images/say_mean.png",
+      "choices": ["Oops! Sorry!", "Keep talking", "Say 'Too bad'"],
+      "correct": "Oops! Sorry!"
+    },
+    {
+      "id": "join_recess",
+      "question": "You want to join kids at recess. What do you say?",
+      "image": "images/join_recess.png",
+      "choices": ["Can I play too?", "You can't play!", "Walk away"],
+      "correct": "Can I play too?"
+    },
+    {
+      "id": "left_out",
+      "question": "You feel left out. What can you do?",
+      "image": "images/left_out.png",
+      "choices": ["Yell at others", "Join politely", "Run away"],
+      "correct": "Join politely"
+    }
+  ],
+  "School": [
+    {
+      "id": "asking",
+      "question": "What do you do before answering in class?",
+      "image": "images/asking.png",
+      "choices": ["Shout the answer", "Raise your hand", "Say it quietly"],
+      "correct": "Raise your hand"
+    },
+    {
+      "id": "hallway",
+      "question": "How should you walk in the hallway?",
+      "image": "images/hallway.png",
+      "choices": ["Run and yell", "Walk calmly", "Jump around"],
+      "correct": "Walk calmly"
+    },
+    {
+      "id": "clean_up",
+      "question": "What should you do if you made a mistake at school?",
+      "image": "images/clean_up.png",
+      "choices": ["Ignore it", "Clean up or fix it", "Leave it"],
+      "correct": "Clean up or fix it"
+    },
+    {
+      "id": "help_teacher",
+      "question": "You need help in class. What should you do?",
+      "image": "images/help_teacher.png",
+      "choices": ["Wait quietly", "Ask the teacher", "Leave the class"],
+      "correct": "Ask the teacher"
+    },
+    {
+      "id": "listen_class",
+      "question": "Class has started. What should you do?",
+      "image": "images/listen_class.png",
+      "choices": ["Talk to a friend", "Listen to teacher", "Sleep"],
+      "correct": "Listen to teacher"
+    }
+  ],
+  "Outside": [
+    {
+      "id": "excuse_me",
+      "question": "What do you say when you want to pass someone?",
+      "image": "images/excuse_me.png",
+      "choices": ["Push them", "Say 'Excuse me'", "Yell"],
+      "correct": "Say 'Excuse me'"
+    },
+    {
+      "id": "cross_street",
+      "question": "How do you cross the street safely?",
+      "image": "images/cross_street.png",
+      "choices": ["Run fast", "Look both ways and walk", "Close your eyes"],
+      "correct": "Look both ways and walk"
+    },
+    {
+      "id": "inside_voice",
+      "question": "What voice should you use in a quiet place?",
+      "image": "images/inside_voice.png",
+      "choices": ["Shout", "Whisper or use an inside voice", "Sing loudly"],
+      "correct": "Whisper or use an inside voice"
+    },
+    {
+      "id": "share_lunch",
+      "question": "A friend forgot lunch. What can you do?",
+      "image": "images/share_lunch.png",
+      "choices": ["Tease them", "Share your lunch", "Eat fast"],
+      "correct": "Share your lunch"
+    },
+    {
+      "id": "stay_calm",
+      "question": "You're upset. What helps you calm down?",
+      "image": "images/stay_calm.png",
+      "choices": ["Breathe slowly", "Scream", "Throw things"],
+      "correct": "Breathe slowly"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Skills Trainer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffdde1, #fcb69f);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      font-family: 'Comic Sans MS', sans-serif;
+      text-align: center;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 2rem;
+      color: #d6336c;
+    }
+    #category-screen {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .category-card {
+      border: 2px solid #ff99cc;
+      border-radius: 16px;
+      padding: 1.5rem;
+      background-color: #fff0f6;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+    .category-card:hover {
+      transform: scale(1.05);
+      background-color: #ffe0ec;
+    }
+    #scenario-screen {
+      display: none;
+      text-align: center;
+    }
+    .scene {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .choices button {
+      padding: 0.75rem 1.5rem;
+      margin: 0.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 12px;
+      background-color: #ffb3c6;
+      color: black;
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.1s;
+    }
+    .choices button:hover {
+      background-color: #ffa3b4;
+      transform: scale(1.05);
+    }
+    .back-button {
+      margin-top: 1rem;
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      background-color: #a3c4f3;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .back-button:hover {
+      background-color: #89abe3;
+    }
+  </style>
+  <script>
+    function showConfetti() {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 },
+      });
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>✨ What Should You Do? ✨</h1>
+    <div id="category-screen"></div>
+    <div id="scenario-screen"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
