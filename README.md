@@ -1,51 +1,32 @@
-# Code-for-App
-# Social Skills Trainer App (Backend)
+# Social App Trainer
 
-This is the backend of a web-based Social Skills Trainer app designed to help autistic children and others with special needs improve their social understanding through interactive, scenario-based learning. The project aims to deliver tailored experiences using adaptive difficulty and tone detection systems.
+Author: Suhani Rai
 
-## 🔧 Technologies Used
+## Overview
+This project provides an interactive platform for practicing social skills through real-world scenarios. Users can engage with different situations, monitor their progress, and unlock levels as they improve. The app combines frontend UI design with backend API logic, demonstrating applied web development and AI integration skills.
 
-- **FastAPI** – Python web framework for building APIs
-- **Python** – Core language for backend logic
-- **Uvicorn** – ASGI server for running FastAPI apps
-- **Tone Detection** – Basic NLP model (will be improved using ML in future versions)
+___
 
-## 🌟 Features
+## Features
+- Interactive social-skill scenarios: Users can navigate multiple categorized scenarios.
+- Progress tracking: Monitors user performance and provides level-based advancement.
+- AI-powered tone detection: Analyzes user input to give feedback on communication style.
+- Modular architecture: Easy to extend with additional scenarios or AI improvements.
+- Responsive web interface: Built using HTML, CSS, JavaScript, and FastAPI backend.
 
-- Serves randomized social scenarios (categorized by environment: home, school, friends, etc.)
-- Receives user responses and tracks answers
-- Adjusts difficulty level dynamically
-- Image-based visual learning
-- Progress and level tracking (in development)
-- Future integration: Enhanced tone detection using NLP/ML (PyTorch)
+___
 
-## 🚀 How to Run Locally
+## How it Works
+- Users access the app through a web interface built in HTML, CSS, and JavaScript.
+- Frontend interacts with the FastAPI backend to submit responses and receive feedback.
+- The backend calls the AI tone-detection module (Python) to analyze text input.
+- User progress and scenario completion are tracked in state variables for dynamic level progression.
+- Admins or developers can add new scenarios or update AI logic easily due to modular design.
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/heerarai/Code-for-App.git
-   cd Code-for-App/backend
-2. **Install dependencies**  
-   (Make sure you’re using a virtual environment)
-   ```bash
-   pip install -r requirements.txt
-3. **Run App**
-   ```bash
-   uvicorn app:app --reload
-4. **Open in Browser**
-   ```bash
-   Visit: http://127.0.0.1:8000/docs for Swagger API docs
+___
 
-👩‍💻 About the Creator
-
-This app was created by Suhani Rai, a high school student passionate about AI, accessibility, and real-world impact. Inspired by her brother and volunteer work at a special needs clinic, she built this tool to help children practice and improve their social interactions in a supportive way.
-
-📌 Future Plans
-- Improve tone detection using PyTorch and NLP models
-
-- Add animated frontend and character visuals
-
-- Save user data and track improvement over time
-
-- Launch full-stack deployment for public access
-
+## Technical Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python, FastAPI
+- AI Module: Python, basic NLP for tone detection
+- Version Control: Git/GitHub
