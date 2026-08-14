@@ -5,86 +5,142 @@
       "question": "What should you say when your sibling is sad?",
       "image": "images/sad_sibling.png",
       "choices": ["Laugh at them", "Ignore them", "Ask if they're okay"],
-      "correct": "Ask if they're okay"
+      "correct": "Ask if they're okay",
+      "explanation": "Checking in shows your sibling that you care about their feelings. It's the first step to helping them feel better.",
+      "skill": "emotions",
+      "difficulty": 1
     },
     {
       "id": "share_toy",
       "question": "What do you do if you want a toy your sibling is using?",
       "image": "images/share_toy.png",
       "choices": ["Grab it from them", "Yell at them", "Ask nicely or wait your turn"],
-      "correct": "Ask nicely or wait your turn"
+      "correct": "Ask nicely or wait your turn",
+      "explanation": "Asking nicely or waiting your turn respects that your sibling is still playing, and it usually gets you a turn faster than grabbing does.",
+      "skill": "sharing",
+      "difficulty": 1
     },
     {
       "id": "help_parents",
       "question": "How can you help your parents without being asked?",
       "image": "images/help_parents.png",
       "choices": ["Clean your room", "Wait for them to tell you", "Leave the house"],
-      "correct": "Clean your room"
+      "correct": "Clean your room",
+      "explanation": "Noticing something that needs doing and just doing it is a great way to help out - you don't always need to be asked first.",
+      "skill": "classroom_behavior",
+      "difficulty": 1
     },
     {
       "id": "break",
       "question": "What should you say after breaking something at home?",
-      "image": "images/break_png.png",
+      "image": "images/break.png",
       "choices": ["Hide it", "Say sorry and tell an adult", "Blame your sibling"],
-      "correct": "Say sorry and tell an adult"
+      "correct": "Say sorry and tell an adult",
+      "explanation": "Telling an adult and saying sorry is honest, and it helps fix the problem faster. Hiding it or blaming someone else usually makes things worse.",
+      "skill": "conflict_resolution",
+      "difficulty": 1
     },
     {
       "id": "parent_sayno",
-      "question": "What should you do if your parent says “no”?",
+      "question": "What should you do if your parent says \u201cno\u201d?",
       "image": "images/parent_sayno.png",
       "choices": ["Argue loudly", "Respect their answer", "Cry and scream"],
-      "correct": "Respect their answer"
+      "correct": "Respect their answer",
+      "explanation": "It's okay to feel disappointed, but respecting the answer shows you can handle hearing 'no' calmly, which is a skill that helps everywhere in life.",
+      "skill": "handling_frustration",
+      "difficulty": 1
     },
     {
       "id": "share_food",
       "question": "How can you share snacks with your family?",
       "image": "images/share_food.png",
       "choices": ["Offer them some", "Eat it all quickly", "Hide it"],
-      "correct": "Offer them some"
+      "correct": "Offer them some",
+      "explanation": "Offering to share shows kindness and makes snack time more fun for everyone.",
+      "skill": "sharing",
+      "difficulty": 1
     },
     {
       "id": "help_sayhi",
       "question": "You see your aunt in the living room. What should you do?",
       "image": "images/help_sayhi.png",
       "choices": ["Ignore her", "Say 'Hi!'", "Run away"],
-      "correct": "Say 'Hi!'"
+      "correct": "Say 'Hi!'",
+      "explanation": "A friendly greeting is a simple way to show someone you're happy to see them.",
+      "skill": "communication",
+      "difficulty": 1
     },
     {
       "id": "help_mean",
       "question": "Your sibling says something mean. What do you do?",
       "image": "images/help_mean.png",
       "choices": ["Say something mean back", "Tell an adult", "Cry loudly"],
-      "correct": "Tell an adult"
+      "correct": "Tell an adult",
+      "explanation": "Telling a trusted adult helps solve the problem without it turning into a bigger fight.",
+      "skill": "conflict_resolution",
+      "difficulty": 1
+    },
+    {
+      "id": "frustrated_sibling",
+      "question": "Your sibling is getting frustrated because their tower keeps falling. What should you do?",
+      "image": "images/frustrated_sibling.png",
+      "choices": ["Laugh at them", "Ask if they want help", "Knock it down more"],
+      "correct": "Ask if they want help",
+      "explanation": "Offering help shows you noticed they're struggling. It's kind to ask first, since some people prefer to keep trying on their own.",
+      "skill": "handling_frustration",
+      "difficulty": 2
     }
   ],
   "Home": [
     {
       "id": "door",
-      "question": "What do you do before going into someone’s room?",
+      "question": "What do you do before going into someone\u2019s room?",
       "image": "images/door.png",
       "choices": ["Knock", "Just walk in", "Yell their name"],
-      "correct": "Knock"
+      "correct": "Knock",
+      "explanation": "Knocking gives the person a chance to say 'come in' and respects their privacy.",
+      "skill": "personal_space",
+      "difficulty": 1
     },
     {
       "id": "done_playing",
       "question": "What should you do when you're done playing?",
       "image": "images/done_playing.png",
       "choices": ["Leave the mess", "Clean up your toys", "Hide the toys"],
-      "correct": "Clean up your toys"
+      "correct": "Clean up your toys",
+      "explanation": "Cleaning up makes the space ready for next time and shows responsibility.",
+      "skill": "classroom_behavior",
+      "difficulty": 1
     },
     {
       "id": "ask_break",
       "question": "You're feeling overwhelmed. What should you do?",
       "image": "images/ask_break.png",
       "choices": ["Keep going", "Ask for a break", "Yell"],
-      "correct": "Ask for a break"
+      "correct": "Ask for a break",
+      "explanation": "Asking for a break is a healthy way to handle big feelings before they build up.",
+      "skill": "handling_frustration",
+      "difficulty": 2
     },
     {
       "id": "choose_toy",
       "question": "You want to play with a toy. What should you do?",
       "image": "images/choose_toy.png",
       "choices": ["Take it without asking", "Ask nicely", "Hide it"],
-      "correct": "Ask nicely"
+      "correct": "Ask nicely",
+      "explanation": "Asking nicely lets the other person know what you want and keeps things fair.",
+      "skill": "asking_for_help",
+      "difficulty": 1
+    },
+    {
+      "id": "help_books",
+      "question": "You finish reading a book at home. What should you do with it?",
+      "image": "images/help_books.png",
+      "choices": ["Leave it on the floor", "Put it back where it belongs", "Throw it"],
+      "correct": "Put it back where it belongs",
+      "explanation": "Putting things away when you're done makes it easier for everyone to find them next time - including you!",
+      "skill": "classroom_behavior",
+      "difficulty": 1
     }
   ],
   "Classmates": [
@@ -93,35 +149,60 @@
       "question": "What can you say when your classmate wins a game?",
       "image": "images/friend_wins.png",
       "choices": ["Get mad", "Congratulate them", "Say 'You cheated'"],
-      "correct": "Congratulate them"
+      "correct": "Congratulate them",
+      "explanation": "Congratulating someone shows good sportsmanship, even when you wanted to win too.",
+      "skill": "making_friends",
+      "difficulty": 1
     },
     {
       "id": "say_please",
       "question": "What should you do if you want to go first?",
       "image": "images/say_please.png",
       "choices": ["Shove in line", "Say 'Please can I go first?'", "Yell"],
-      "correct": "Say 'Please can I go first?'"
+      "correct": "Say 'Please can I go first?'",
+      "explanation": "Asking politely is more likely to get a 'yes' and keeps things friendly.",
+      "skill": "communication",
+      "difficulty": 1
     },
     {
       "id": "say_mean",
       "question": "What should you say if you accidentally interrupt?",
       "image": "images/say_mean.png",
       "choices": ["Oops! Sorry!", "Keep talking", "Say 'Too bad'"],
-      "correct": "Oops! Sorry!"
+      "correct": "Oops! Sorry!",
+      "explanation": "A quick, genuine apology shows you noticed and lets the other person keep talking.",
+      "skill": "conversation",
+      "difficulty": 1
     },
     {
       "id": "join_recess",
       "question": "You want to join kids at recess. What do you say?",
       "image": "images/join_recess.png",
       "choices": ["Can I play too?", "You can't play!", "Walk away"],
-      "correct": "Can I play too?"
+      "correct": "Can I play too?",
+      "explanation": "Asking to join is a simple, friendly way to become part of a group activity.",
+      "skill": "making_friends",
+      "difficulty": 2
     },
     {
       "id": "left_out",
       "question": "You feel left out. What can you do?",
       "image": "images/left_out.png",
       "choices": ["Yell at others", "Join politely", "Run away"],
-      "correct": "Join politely"
+      "correct": "Join politely",
+      "explanation": "Politely asking to join gives you a real chance to be included, instead of walking away or getting upset.",
+      "skill": "making_friends",
+      "difficulty": 2
+    },
+    {
+      "id": "lost_game",
+      "question": "You lose a game to a classmate. What's a good thing to do?",
+      "image": "images/lost_game.png",
+      "choices": ["Say 'Good game!'", "Flip the board over", "Refuse to play again"],
+      "correct": "Say 'Good game!'",
+      "explanation": "Saying 'good game' shows you can lose gracefully - people enjoy playing with someone who's a good sport, win or lose.",
+      "skill": "handling_frustration",
+      "difficulty": 2
     }
   ],
   "School": [
@@ -130,35 +211,50 @@
       "question": "What do you do before answering in class?",
       "image": "images/asking.png",
       "choices": ["Shout the answer", "Raise your hand", "Say it quietly"],
-      "correct": "Raise your hand"
+      "correct": "Raise your hand",
+      "explanation": "Raising your hand lets the teacher know you have something to say and keeps the classroom calm for everyone.",
+      "skill": "following_directions",
+      "difficulty": 1
     },
     {
       "id": "hallway",
       "question": "How should you walk in the hallway?",
       "image": "images/hallway.png",
       "choices": ["Run and yell", "Walk calmly", "Jump around"],
-      "correct": "Walk calmly"
+      "correct": "Walk calmly",
+      "explanation": "Walking calmly keeps you and others safe and follows the classroom rules.",
+      "skill": "classroom_behavior",
+      "difficulty": 1
     },
     {
       "id": "clean_up",
       "question": "What should you do if you made a mistake at school?",
       "image": "images/clean_up.png",
       "choices": ["Ignore it", "Clean up or fix it", "Leave it"],
-      "correct": "Clean up or fix it"
+      "correct": "Clean up or fix it",
+      "explanation": "Fixing a mistake shows responsibility, and it's a normal part of learning - everyone makes them.",
+      "skill": "classroom_behavior",
+      "difficulty": 1
     },
     {
       "id": "help_teacher",
       "question": "You need help in class. What should you do?",
       "image": "images/help_teacher.png",
       "choices": ["Wait quietly", "Ask the teacher", "Leave the class"],
-      "correct": "Ask the teacher"
+      "correct": "Ask the teacher",
+      "explanation": "Teachers are there to help - asking is the fastest way to get unstuck.",
+      "skill": "asking_for_help",
+      "difficulty": 1
     },
     {
       "id": "listen_class",
       "question": "Class has started. What should you do?",
       "image": "images/listen_class.png",
       "choices": ["Talk to a friend", "Listen to teacher", "Sleep"],
-      "correct": "Listen to teacher"
+      "correct": "Listen to teacher",
+      "explanation": "Listening when class starts helps you know what's happening and what to do next.",
+      "skill": "listening",
+      "difficulty": 1
     }
   ],
   "Outside": [
@@ -167,35 +263,50 @@
       "question": "What do you say when you want to pass someone?",
       "image": "images/excuse_me.png",
       "choices": ["Push them", "Say 'Excuse me'", "Yell"],
-      "correct": "Say 'Excuse me'"
+      "correct": "Say 'Excuse me'",
+      "explanation": "'Excuse me' politely lets someone know you need to get by without startling them.",
+      "skill": "communication",
+      "difficulty": 1
     },
     {
       "id": "cross_street",
       "question": "How do you cross the street safely?",
       "image": "images/cross_street.png",
       "choices": ["Run fast", "Look both ways and walk", "Close your eyes"],
-      "correct": "Look both ways and walk"
+      "correct": "Look both ways and walk",
+      "explanation": "Looking both ways makes sure it's safe before you cross - this keeps you safe every time.",
+      "skill": "following_directions",
+      "difficulty": 1
     },
     {
       "id": "inside_voice",
       "question": "What voice should you use in a quiet place?",
       "image": "images/inside_voice.png",
       "choices": ["Shout", "Whisper or use an inside voice", "Sing loudly"],
-      "correct": "Whisper or use an inside voice"
+      "correct": "Whisper or use an inside voice",
+      "explanation": "Using a quieter voice in quiet places is considerate of the people around you.",
+      "skill": "understanding_social_cues",
+      "difficulty": 1
     },
     {
       "id": "share_lunch",
       "question": "A friend forgot lunch. What can you do?",
       "image": "images/share_lunch.png",
       "choices": ["Tease them", "Share your lunch", "Eat fast"],
-      "correct": "Share your lunch"
+      "correct": "Share your lunch",
+      "explanation": "Sharing when a friend is in need is a kind, generous thing to do.",
+      "skill": "sharing",
+      "difficulty": 1
     },
     {
       "id": "stay_calm",
       "question": "You're upset. What helps you calm down?",
       "image": "images/stay_calm.png",
       "choices": ["Breathe slowly", "Scream", "Throw things"],
-      "correct": "Breathe slowly"
+      "correct": "Breathe slowly",
+      "explanation": "Slow breathing helps calm your body down so you can think clearly again.",
+      "skill": "handling_frustration",
+      "difficulty": 2
     }
   ]
 }
